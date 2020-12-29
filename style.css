@@ -34,26 +34,15 @@ body{
 	/*Anordnung der Elemente im Body*/
 		display: flex;
     /*Reihenfolge der Elemente*/
-        flex-direction: column;
+        flex-direction: row;
     /*Verhalten der Elemente am Zeilenende*/
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     /*Abstaende/Anordnung der Elemente innerhalb einer Zeile*/
         justify-content: flex-start;
     /*Verhalten der Hoehen der Elemente innerhalb einer Zeile*/
         align-items: stretch;
     /*Abstaende/Verhalten der verschiedener Zeilen zueinander*/
 		align-content: stretch;
-}
-
-#all{
-	min-height: 100%;
-	/*width: 100%;*/
-	display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;		
 }
 
 /*************  MAINMENU  **********************/
